@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;box-sizing: border-box;
+}
+body{
+  background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+
+}
+.card{
+  transition: all 2s linear;
+}
+.card:hover{
+  transform: scale(1.02) rotate(5deg);
+}
+.heading{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow:5px 3px 3px rgb(242, 197, 197);
+}
+.caat{
+ display: flex;
+ justify-content: space-around;
+}
+.sub-heading{
+ 
+  justify-content: center;
+  width: 570px;
+  text-align: center;
+}
+
+.btn-group-2{
+  margin-left: 30px;
+  
+}
+.home-page{
+  margin-top: 20px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow:5px 3px 3px white;
+}
+.about-page{
+  margin-top: 20px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow:5px 3px 3px white;
+}
+.contact-page{
+  margin-top: 20px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow:5px 3px 3px white;
+}
